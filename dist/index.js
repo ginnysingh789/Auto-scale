@@ -10,4 +10,7 @@ app.get('/cpu', (req, res) => {
     }
     res.send("Expensive Operation Completed");
 });
+app.get('/health', (req, res) => {
+    res.status(200).send("Health end point ");
+});
 //# sourceMappingURL=index.js.map
